@@ -25,4 +25,10 @@
 */
 
 require(dirname(__FILE__).'/config/config.inc.php');
+Tools::clearSmartyCache();
+Tools::clearXMLCache();
+Media::clearCache();
+PrestaShopAutoload::getInstance()->generateIndex();
 Dispatcher::getInstance()->dispatch();
+
+

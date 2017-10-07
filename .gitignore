@@ -1,0 +1,27 @@
+# Folders
+/cache/*
+/laradock
+/node_modules/*
+/nbproject/private
+/app/config/env.php
+/bootstrap/compiled.php
+/public/robots.txt
+/public/*.html
+/public/*.xml
+/public/sitemap
+/public/sitemap/*
+/public/sqrcode
+/public/sqrcode/*
+/public/files/web_chat/*
+/public/dist/js/*
+/public/dist/css/*
+/report
+/.vscode
+
+# Files
+Thumbs.db
+*.properties
+*.idea
+.DS_Store
+.phpintel
+composer.lock
