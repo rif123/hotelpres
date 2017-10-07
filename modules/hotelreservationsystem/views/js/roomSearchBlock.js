@@ -58,7 +58,7 @@ $(document).ready(function() {
     var ajax_check_var = '';
     $('.location_search_results_ul').hide();
 
-    $("#check_in_time").datetimepicker({
+    $("#check_in_time").datepicker({
         showOtherMonths: true,
         dateFormat: 'dd-mm-yy',
         timeFormat:  "hh:mm:ss",
@@ -77,7 +77,7 @@ $(document).ready(function() {
 
 
 
-    $("#check_out_time").datetimepicker({
+    $("#check_out_time").datepicker({
         showOtherMonths: true,
         dateFormat: 'dd-mm-yy',
         //for calender Css
